@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasicExtensionsKit", "CSharpBasicExtensionsKit\CSharpBasicExtensionsKit.csproj", "{231F4E38-D630-4B69-BF2F-09D4A5C9751A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasicExtensionsKitTests", "CSharpBasicExtensionsKitTests\CSharpBasicExtensionsKitTests.csproj", "{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|Win32.ActiveCfg = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|x64.ActiveCfg = Release|Any CPU
+		{231F4E38-D630-4B69-BF2F-09D4A5C9751A}.Release|x86.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|ARM.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|Win32.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|x64.ActiveCfg = Release|Any CPU
+		{25242FD0-D163-4AB6-B1EC-1AE3C247EC22}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://comtechy.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSharpBasicExtensionsKit\\CSharpBasicExtensionsKit.csproj
+		SccProjectName1 = CSharpBasicExtensionsKit
+		SccLocalPath1 = CSharpBasicExtensionsKit
+		SccProjectUniqueName2 = CSharpBasicExtensionsKitTests\\CSharpBasicExtensionsKitTests.csproj
+		SccProjectName2 = CSharpBasicExtensionsKitTests
+		SccLocalPath2 = CSharpBasicExtensionsKitTests
+	EndGlobalSection
+EndGlobal

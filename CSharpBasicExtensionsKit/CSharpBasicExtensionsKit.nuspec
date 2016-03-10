@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>1.0.7.0</version>
+    <title>C# Basic Extensions</title>
+    <authors>Carlos Alvarez</authors>
+    <owners>Carlos Alvarez</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+	Set of C# extension to write cleaner code.  Extensions can be use in LinkQ, Rx Extensions and anywhere yo can use an extension.
+    
+	For example:
+	
+	'if (obj == null)'  can be use as 'obj.IfNull(() => .....)'
+	
+	there are tons of unit test samples
+	</description>
+    <releaseNotes>
+
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>C# Extensions</tags>
+  </metadata>
+	<!-- http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package  -->
+	<files>
+        <file src="bin\Release\CSharpBasicExtensionsKit.dll" target="lib\net40" />
+        <file src="bin\Release\CSharpBasicExtensionsKit.dll" target="lib\net45" />
+	</files>
+</package>
+
+<!-- Installation:
+nuget pack CSharpBasicExtensionsKit.csproj -Properties Configuration=Release
+nuget pack CSharpBasicExtensionsKit.csproj -Build -Symbols -Properties Configuration=Release
+nuget push CSharpBasicExtensionsKit.1.0.7.0.nupkg
+
+Key: 5f778806-d0a4-4ced-a32b-870a0f272f19
+
+C:\Users\Carlos\Documents\MyDevelopment\CSharpBasicExtensionsKitSolution>cd CSharpBasicExtensionsKit
+
+C:\Users\Carlos\Documents\MyDevelopment\CSharpBasicExtensionsKitSolution\CSharpBasicExtensionsKit>nuget pack CSharpBasicExtensionsKit.csproj -Prop Configuration=Relea
+Attempting to build package from 'CSharpBasicExtensionsKit.csproj'.
+Packing files from 'C:\Users\Carlos\Documents\MyDevelopment\CSharpBasicExtensionsKitSolution\CSharpBasicExtensionsKit\bin\Release'.
+WARNING: Unable to extract metadata from 'CSharpBasicExtensionsKit.dll'.
+Using 'CSharpBasicExtensionsKit.nuspec' for metadata.
+Successfully created package 'C:\Users\Carlos\Documents\MyDevelopment\CSharpBasicExtensionsKitSolution\CSharpBasicExtensionsKit\CSharpBasicExtensionsKit.1.0.3.0.nupkg
+
+C:\Users\Carlos\Documents\MyDevelopment\CSharpBasicExtensionsKitSolution\CSharpBasicExtensionsKit>nuget push CSharpBasicExtensionsKit.1.0.3.0.nupkg
+Pushing CSharpBasicExtensionsKit 1.0.3.0 to the NuGet gallery (https://www.nuget.org)...
+-->
+
