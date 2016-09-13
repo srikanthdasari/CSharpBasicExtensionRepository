@@ -385,7 +385,9 @@ namespace CSharpBasicExtensionsKitTests
             Assert.IsTrue("Tue, 02 Jul 2013 12:00:01 GMT".ToDateTimeFromStr() == "Tue, 02 Jul 2013 08:00:01 EDT".ToDateTimeFromStr());
             Assert.IsTrue("Fri, 28 Jun 2013 19:00:18 +0100".ToDateTimeFromStr() == DateTime.Parse("6/28/2013 2:00:18 PM"));
             Assert.IsTrue("Sun, 23 Jun 2013 20:56:30 EDT".ToDateTimeFromStr() == DateTime.Parse("6/23/2013 8:56:30 PM"));
-            
+            Assert.AreEqual(2, "Fri, 07 Feb 2014 11:52:10 EST".ToDateTimeFromStr().Month);
+            Assert.AreEqual(2014, "Tue, 7 Jan 2014 10:02:00 -0400".ToDateTimeFromStr().Year);
+            Assert.AreEqual(2010, "Thu, 20 May 2010 10:16:00 -0400".ToDateTimeFromStr().Year);
         }
     }
 }
